@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -52,9 +54,9 @@ export const gridItems = [
     title: "Currently working on Machine Learning projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-80",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/software-dev.jpg",
     spareImg: "/grid.svg",
   },
   {
@@ -94,14 +96,14 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://amanstudio.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 4,
+    title: "Finetech - A Finance App",
+    des: "This is like paytm app with all transaction feature..",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
 ];
 
 export const testimonials = [
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/iqbal7230",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Iqbal7230"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/iqbal-ansari-53406a253/"
   },
 ];

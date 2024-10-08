@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on Machine Learning projects",
+    title: "Currently working on MERN stack projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-80",
@@ -74,35 +74,44 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "TourVenture - An web progressive app to Explore",
-    des: " It aims to connect travellers with unique local experiences and services using Next.js, MongoDB, Cloudinary and secure userauthentication" ,
-    img: "/tour.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/iqbal7230/Tour-Venture-App",
-  },
-  {
-    id: 2,
-    title: "To do App",
-    des: "The To-Do App is designed to help you stay organized and productive by allowing you to easily add, fetch, delete, and mark tasks as completed. With a clean interface, you can quickly manage your daily activities, ensuring nothing is missed. The app is also evolving with a feature to edit tasks, enabling better task management and flexibility.",
-    img: "/todo.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "#",
-  },
-  {
-    id: 3,
     title: "Graphic Desiginer Portfolio",
     des: "A real website for a graphic designer, built with Next.js, Tailwind CSS, and Framer Motion. The site features a clean, modern design with smooth animations and transitions.",
     img: "/studio.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://amanstudio.vercel.app/",
   },
+   {
+    id: 2,
+    title: "Agri-App - A Agriculture App",
+    des: "It is like E-commerce app for agriculture product.." ,
+    img: "/tour.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://agri-tech-rho.vercel.app/",
+  },
+  
   {
-    id: 4,
+    id: 3,
     title: "Finetech - A Finance App",
     des: "This is like paytm app with all transaction feature..",
-    img: "/p4.svg",
+    img: "/Finance.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/iqbal7230/Paytm",
+  },
+  {
+    id: 4,
+    title: "Task Management App",
+    des: "The To-Do App is designed to help you stay organized and productive by allowing you to easily add, fetch, delete, and mark tasks as completed. With a clean interface, you can quickly manage your daily activities, ensuring nothing is missed. The app is also evolving with a feature to edit tasks, enabling better task management and flexibility.",
+    img: "/todo.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "TourVenture - An web progressive app to Explore",
+    des: " It aims to connect travellers with unique local experiences and services using Next.js, MongoDB, Cloudinary and secure userauthentication" ,
+    img: "/tour.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://github.com/iqbal7230/Tour-Venture-App",
   },
 ];
 

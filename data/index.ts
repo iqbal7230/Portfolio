@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "Agri-App - A Agriculture App",
     des: "It is like E-commerce app for agriculture product.." ,
-    img: "/tour.jpg",
+    img: "/Agriculture.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://agri-tech-rho.vercel.app/",
   },

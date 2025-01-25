@@ -5,6 +5,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "#" },
 ];
 
 export const gridItems = [
@@ -184,32 +185,18 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Python Developer Intern",
+    desc: "Assisted in the development of a web-based platform using Django, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Machine Learning Intern",
-    desc: "Developed a machine learning model to predict stock prices using Python and TensorFlow.",
+    title: "Bussiness Analyst Intern",
+    desc: "App scripting to automate data analysis and reporting, improving efficiency by 40%.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance Web Dev Project",
-    desc: "Led the dev of a web app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  }
 ];
 
 export const socialMedia = [

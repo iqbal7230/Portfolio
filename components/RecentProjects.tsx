@@ -7,12 +7,12 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-10" id='projects'>
+    <div className="py-6" id='projects'>
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-12 mt-8">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-12 mt-4">
         {projects.map((item) => (
           <Link
             href={item.link}

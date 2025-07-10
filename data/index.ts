@@ -5,9 +5,10 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "https://drive.google.com/file/d/1mcfGIZYsEchill4NiUMAUIbGaaUlc8gY/view?usp=sharing" },
+  { name: "Resume", link: "https://drive.google.com/file/d/1jZNTdtPWgdSM0X85Cd0oBrywfLA0PDpC/view?usp=sharing" },
 ];
-
+// Hi 👋, I'm Iqbal Ansari
+// MERN Stack Developer | Data Science Enthusiast | Problem Solver
 export const gridItems = [
   {
     id: 1,
@@ -81,8 +82,16 @@ export const projects = [
     iconLists: ["/re.svg", "/FastAPI.svg", "/ts.svg", "/Python.svg"],
     link: "https://ai-cal-frontend-yijz.vercel.app/",
   },
-   {
+  {
     id: 2,
+    title: "CLUB CONNECTX",
+    des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities.",
+    img: "/clubconnets.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://frontend-club-connect-z9uh-2tqw82pfe-iqbal7230s-projects.vercel.app/",
+  },
+   {
+    id: 3,
     title: "Student Performance Indicator ",
     des: "Machine Learning model to predict student performance based on various factors" ,
     img: "/stud.webp",
@@ -90,14 +99,7 @@ export const projects = [
     link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
   },
   
-  // {
-  //   id: 3,
-  //   title: "Finetech - A Finance App",
-  //   des: "This is like paytm app with all transaction feature..",
-  //   img: "/Finance.png",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/iqbal7230/Paytm",
-  // },
+  
   // {
   //   id: 4,
   //   title: "Task Management App",

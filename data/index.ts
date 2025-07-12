@@ -18,7 +18,7 @@ export const projects = [
     img: "/AI.webp",
     teckstack: ["React", "FastAPI", "TypeScript", "Python", "TailwindCSS", "Gemini API"],
     link: "https://ai-cal-frontend-yijz.vercel.app/",
-    githubLink: "https://github.com/iqbal7230/AI-Powered-Next-Gen-Calculator",
+    githubLink: "https://github.com/iqbal7230/AI_cal_frontend.git",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const projects = [
     img: "/clubconnets.png",
     teckstack: ["React", "Tailwindcss", "JavaScript", "Python", "ExpressJs", "MongoDB"],
     link: "https://frontend-club-connect-z9uh-2tqw82pfe-iqbal7230s-projects.vercel.app/",
-    githubLink: "https://github.com/iqbal7230/CLUB-CONNECTX",
+    githubLink: "https://github.com/iqbal7230/Frontend_ClubConnect.git",
   },
    {
     id: 3,

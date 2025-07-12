@@ -5,7 +5,7 @@ import { skill } from "@/data";
 export function Skillbutton() {
     return (
         <div >
-            <h1 className="heading text-center mb-8">
+            <h1 className="heading text-center w-full pb-10">
                 My <span className="text-purple">Skills</span>
                </h1>
                 {/* <p className="text-center">Here are some of the technologies I work with:</p> */}

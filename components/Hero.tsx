@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaWhatsapp } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -68,11 +68,11 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="mailto:iqbalansari7230@gmail.com">
+            <a href="https://wa.me/9523137230?text=Hi%2C%20I%20came%20across%20your%20portfolio%20and%20I%27m%20interested%20to%20work%20together.%20Let%27s%20connect!">
               <MagicButton
-                title="Get in touch"
-                icon={<FaLocationArrow />}
-                position="right"
+                title="Chat on WhatsApp"
+                icon={<FaWhatsapp />}
+                position="left"
               />
             </a>
           </div>

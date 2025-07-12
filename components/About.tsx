@@ -40,7 +40,7 @@ export function AboutTimeline() {
             title: "2023",
             content: (
                 <div>
-                    <ul className="mb-8 list-disc pl-5 text-lg font-sans text-neutral-800 md:text-base dark:text-neutral-200">
+                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
                         <li>
                             Learned the basics of programming with Python and JavaScript. Started building small projects to apply my knowledge.📚
                         </li>
@@ -50,10 +50,25 @@ export function AboutTimeline() {
                     </ul>
                 </div>
             ),
+        },
+        {
+            title: "2022",
+            content: (
+                <div>
+                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                        <li>
+                            Started my journey in programming by learning the basics of HTML, CSS, and JavaScript. Built my first static website and realized my passion for web development.🌐
+                        </li>
+                        <li>
+                            Joined college and started exploring different fields of computer science, including data structures, algorithms, and databases. Participated in coding competitions and hackathons to improve my skills.
+                        </li>
+                    </ul>
+                </div>
+            ),
         }
     ];
     return (
-        <div className="pb-10 w-full">
+        <div className="py-20 w-full">
             <h1 className="heading">
                 My <span className="text-purple">Timeline Journey</span>
             </h1>

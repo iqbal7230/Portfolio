@@ -40,28 +40,27 @@ export function Project() {
                                 {tech}
                             </span>
                         ))}
+                    <div className="flex gap-2 mt-4">
+                        <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=" inline-flex items-center rounded-full px-3 py-1 text-xs text-white bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 transition font-semibold shadow-sm mr-4"
+                        >
+                            <img src="/world-wide-web.svg" alt="website" className="inline-block w-4 h-4 mr-1" />
+                            Website
+                        </a>
+                        <a
+                            href={project.githubLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center rounded-full px-3 py-1 text-xs text-white bg-gradient-to-r from-fuchsia-500 to-pink-500 hover:from-fuchsia-600 hover:to-pink-600 transition font-semibold shadow-sm"
+                        >
+                            <img src="/git.svg" alt="GitHub" className="inline-block w-4 h-4 mr-1" />
+                            Source Code
+                        </a>
                     </div>
-                    <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
-                    >
-                        <img src="/world-wide-web.svg" alt="website" className="inline-block w-5 h-5 mr-2" />
-                        Website
-                       
-                    </a>
-                    <a
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className=" gap-2 inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
-                    >
-                       
-                        <img src="/git.svg" alt="GitHub" className="inline-block w-5 h-5 mr-2" />
-                       
-                       Source Code
-                    </a>
+                    </div>
                 </BackgroundGradient>
             ))}
         </div>

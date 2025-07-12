@@ -55,7 +55,7 @@ export function Project() {
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
+                        className=" gap-2 inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
                     >
                        
                         <img src="/git.svg" alt="GitHub" className="inline-block w-5 h-5 mr-2" />

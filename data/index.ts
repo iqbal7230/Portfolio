@@ -16,24 +16,27 @@ export const projects = [
     title: "AI-Powered Next-Gen Calculator",
     des: "An innovative calculator that integrates handwriting recognition, equation solving, graph generation, and abstract drawing interpretation, delivering a seamless and interactive experience for user's devices.",
     img: "/AI.webp",
-    teckstack: ["react", "fastapi", "typescript", "python"],
+    teckstack: ["React", "FastAPI", "TypeScript", "Python", "TailwindCSS", "Gemini API"],
     link: "https://ai-cal-frontend-yijz.vercel.app/",
+    githubLink: "https://github.com/iqbal7230/AI-Powered-Next-Gen-Calculator",
   },
   {
     id: 2,
     title: "CLUB CONNECTX",
-    des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities.",
+    des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities. Stuents can explore clubs, join events, and discover opportunities that match their interests.",
     img: "/clubconnets.png",
-    teckstack: ["nextjs", "tailwindcss", "typescript", "threejs", "gsap"],
+    teckstack: ["React", "Tailwindcss", "JavaScript", "Python", "ExpressJs", "MongoDB"],
     link: "https://frontend-club-connect-z9uh-2tqw82pfe-iqbal7230s-projects.vercel.app/",
+    githubLink: "https://github.com/iqbal7230/CLUB-CONNECTX",
   },
    {
     id: 3,
     title: "Student Performance Indicator ",
-    des: "Machine Learning model to predict student performance based on various factors" ,
+    des: "Machine Learning model to predict student performance based on various factors. It provides insights into student performance, helping educators and institutions make informed decisions to improve educational outcomes." ,
     img: "/stud.webp",
-    teckstack: ["react", "typescript", "python"],
+    teckstack: ["HTML", "Python", "Machine Learning"],
     link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
+    githubLink: "https://github.com/iqbal7230/Student-Perfomance-System.git",
   }
 ];
 

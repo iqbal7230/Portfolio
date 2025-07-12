@@ -28,7 +28,7 @@ export function Project() {
                     <h2 className="text-2xl font-bold text-black dark:text-white mb-2">
                         {project.title}
                     </h2>
-                    <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+                    <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4 text-justify">
                         {project.des}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
@@ -45,9 +45,22 @@ export function Project() {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block rounded-full px-6 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
+                        className="inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
                     >
-                        Visit Project
+                        <img src="/world-wide-web.svg" alt="website" className="inline-block w-5 h-5 mr-2" />
+                        Website
+                       
+                    </a>
+                    <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block rounded-full px-4 py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition font-semibold"
+                    >
+                       
+                        <img src="/git.svg" alt="GitHub" className="inline-block w-5 h-5 mr-2" />
+                       
+                       Source Code
                     </a>
                 </BackgroundGradient>
             ))}

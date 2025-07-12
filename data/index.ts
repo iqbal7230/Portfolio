@@ -7,7 +7,7 @@ export const navItems = [
   { name: "Resume", link: "https://drive.google.com/file/d/1jZNTdtPWgdSM0X85Cd0oBrywfLA0PDpC/view?usp=sharing" },
 ];
 export const skill = [
-   "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java"
+   "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git"
 ];
 
 export const projects = [

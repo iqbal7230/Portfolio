@@ -13,6 +13,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { Navbartop } from "@/components/Navbar";
 import { AboutTimeline } from "@/components/About";
 import { Skillbutton } from "@/components/skill";
+import { Project } from "@/components/projects";
 
 const Home = () => {
   return (
@@ -24,7 +25,8 @@ const Home = () => {
         <Hero />
         <Skillbutton />
         {/* <Grid /> */}
-        <RecentProjects />
+        {/* <RecentProjects /> */}
+        <Project />
         {/* <Clients /> */}
         <Experience />
         <AboutTimeline/>

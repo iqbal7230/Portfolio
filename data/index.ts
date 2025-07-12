@@ -16,7 +16,7 @@ export const projects = [
     title: "AI-Powered Next-Gen Calculator",
     des: "An innovative calculator that integrates handwriting recognition, equation solving, graph generation, and abstract drawing interpretation, delivering a seamless and interactive experience for user's devices.",
     img: "/AI.webp",
-    iconLists: ["/re.svg", "/FastAPI.svg", "/ts.svg", "/Python.svg"],
+    teckstack: ["react", "fastapi", "typescript", "python"],
     link: "https://ai-cal-frontend-yijz.vercel.app/",
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
     title: "CLUB CONNECTX",
     des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities.",
     img: "/clubconnets.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    teckstack: ["nextjs", "tailwindcss", "typescript", "threejs", "gsap"],
     link: "https://frontend-club-connect-z9uh-2tqw82pfe-iqbal7230s-projects.vercel.app/",
   },
    {
@@ -32,7 +32,7 @@ export const projects = [
     title: "Student Performance Indicator ",
     des: "Machine Learning model to predict student performance based on various factors" ,
     img: "/stud.webp",
-    iconLists: ["/re.svg","/ts.svg", "/Python.svg"],
+    teckstack: ["react", "typescript", "python"],
     link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
   }
 ];

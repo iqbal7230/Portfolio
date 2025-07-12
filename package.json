@@ -21,6 +21,7 @@
     "install": "^0.13.0",
     "lucide-react": "^0.365.0",
     "mini-svg-data-uri": "^1.4.4",
+    "motion": "^12.23.3",
     "next": "14.1.4",
     "next-themes": "^0.3.0",
     "react": "^18",

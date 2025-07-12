@@ -1,76 +1,13 @@
-import { link } from "fs";
+
 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
   { name: "Resume", link: "https://drive.google.com/file/d/1jZNTdtPWgdSM0X85Cd0oBrywfLA0PDpC/view?usp=sharing" },
 ];
-// Hi 👋, I'm Iqbal Ansari
-// MERN Stack Developer | Data Science Enthusiast | Problem Solver
-export const gridItems = [
-  {
-    id: 1,
-    title: "I Prioritize Client Collaboration, Fostering Open Communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  // {
-  //   id: 3,
-  //   title: "My tech stack",
-  //   description: "I constantly try to improve",
-  //   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-  //   imgClassName: "",
-  //   titleClassName: "justify-center",
-  //   img: "",
-  //   spareImg: "",
-  // },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
-
-  {
-    id: 5,
-    title: "Currently working on MERN stack projects and learning new technologies",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-80",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/software-dev.jpg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+export const skill = [
+   "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java"
 ];
 
 export const projects = [
@@ -97,25 +34,7 @@ export const projects = [
     img: "/stud.webp",
     iconLists: ["/re.svg","/ts.svg", "/Python.svg"],
     link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
-  },
-  
-  
-  // {
-  //   id: 4,
-  //   title: "Task Management App",
-  //   des: "The To-Do App is designed to help you stay organized and productive by allowing you to easily add, fetch, delete, and mark tasks as completed. With a clean interface, you can quickly manage your daily activities, ensuring nothing is missed. The app is also evolving with a feature to edit tasks, enabling better task management and flexibility.",
-  //   img: "/todo.png",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   link: "#",
-  // },
-  // {
-  //   id: 5,
-  //   title: "TourVenture - An web progressive app to Explore",
-  //   des: " It aims to connect travellers with unique local experiences and services using Next.js, MongoDB, Cloudinary and secure userauthentication" ,
-  //   img: "/tour.jpg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-  //   link: "https://github.com/iqbal7230/Tour-Venture-App",
-  // },
+  }
 ];
 
 

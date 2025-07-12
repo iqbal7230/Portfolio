@@ -10,17 +10,24 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { Navbartop } from "@/components/Navbar";
+import { AboutTimeline } from "@/components/About";
+import { Skillbutton } from "@/components/skill";
 
 const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
+        {/* <FloatingNav navItems={navItems} /> */}
+        <Navbartop />
+
         <Hero />
-        <Grid />
+        <Skillbutton />
+        {/* <Grid /> */}
         <RecentProjects />
         {/* <Clients /> */}
         <Experience />
+        <AboutTimeline/>
         <Approach />
         <Footer />
       </div>

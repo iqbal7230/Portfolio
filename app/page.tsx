@@ -3,8 +3,6 @@
 
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
-// import Clients from "@/components/Clients";
-import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import { Navbartop } from "@/components/Navbar";
 import { AboutTimeline } from "@/components/About";
@@ -22,7 +20,7 @@ const Home = () => {
         <Project />
         <Experience />
         <AboutTimeline/>
-        <Approach />
+      
         <Footer />
       </div>
     </main>

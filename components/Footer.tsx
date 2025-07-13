@@ -6,8 +6,6 @@ import MagicButton from "./MagicButton";
 const Footer = () => {
   return (
     <footer className="w-full mb-[100px] pb-10 md:mb-5" id="contact">
-      {/* background grid */}
-
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">

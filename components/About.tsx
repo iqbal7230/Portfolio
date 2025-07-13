@@ -7,7 +7,7 @@ export function AboutTimeline() {
             title: "2025",
             content: (
                 <div>
-                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-white-200 md:text-lg dark:text-neutral-200">
                         <li>
                             Deep dive into Web Development, mastering cutting-edge technologies and building more than 20 projects.🚀
                         </li>
@@ -22,7 +22,7 @@ export function AboutTimeline() {
             title: "2024",
             content: (
                 <div>
-                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-white-200 md:text-lg dark:text-neutral-200">
                         <li>
                             Learned the fundamentals of Web Development, including HTML, CSS, and JavaScript. Built my first few projects and fell in love with coding.💻
                         </li>
@@ -40,7 +40,7 @@ export function AboutTimeline() {
             title: "2023",
             content: (
                 <div>
-                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-white-200 md:text-lg dark:text-neutral-200">
                         <li>
                             Learned the basics of programming with Python and JavaScript. Started building small projects to apply my knowledge.📚
                         </li>
@@ -55,7 +55,7 @@ export function AboutTimeline() {
             title: "2022",
             content: (
                 <div>
-                    <ul className="mb-8 list-disc pl-5 text-base font-sans font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+                    <ul className="mb-8 list-disc pl-5 text-white-200 font-sans  md:text-lg dark:text-neutral-200">
                         <li>
                             Started my journey in programming by learning the basics of HTML, CSS, and JavaScript. Built my first static website and realized my passion for web development.🌐
                         </li>

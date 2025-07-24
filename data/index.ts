@@ -7,12 +7,21 @@ export const navItems = [
   { name: "Resume", link: "https://drive.google.com/file/d/1jZNTdtPWgdSM0X85Cd0oBrywfLA0PDpC/view?usp=sharing" },
 ];
 export const skill = [
-   "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git"
+   "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript","Docker", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git","RestAPI"
 ];
 
 export const projects = [
   {
     id: 1,
+    title: "StartUpStory",
+    des: "Pitch Your Startup Connect with Entrepreneur. Submit Ideas, Vote on Pitches, Connect with Founders and Get Noticed in the Virtual World",
+    img: "/image.png",
+    teckstack: ["NextJs", "TypeScript", "Sanity", "TailwindCSS"],
+    link: "https://startupstory.vercel.app",
+    githubLink: "https://github.com/iqbal7230/YC_Directory",
+  },
+  {
+    id: 2,
     title: "AI-Powered Next-Gen Calculator",
     des: "An innovative calculator that integrates handwriting recognition, equation solving, graph generation, and abstract drawing interpretation, delivering a seamless and interactive experience for user's devices.",
     img: "/AI.webp",
@@ -21,7 +30,7 @@ export const projects = [
     githubLink: "https://github.com/iqbal7230/AI_cal_frontend.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "CLUB CONNECTX",
     des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities. Stuents can explore clubs, join events, and discover opportunities that match their interests.",
     img: "/clubconnets.png",
@@ -30,7 +39,7 @@ export const projects = [
     githubLink: "https://github.com/iqbal7230/Frontend_ClubConnect.git",
   },
    {
-    id: 3,
+    id: 4,
     title: "Student Performance Indicator ",
     des: "Machine Learning model to predict student performance based on various factors. It provides insights into student performance, helping educators and institutions make informed decisions to improve educational outcomes." ,
     img: "/stud.webp",

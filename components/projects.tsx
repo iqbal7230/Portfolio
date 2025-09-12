@@ -2,6 +2,7 @@
 import React from "react";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { projects } from '@/data/index';
+import Image from "next/image";
 
 export function Project() {
    
@@ -47,7 +48,7 @@ export function Project() {
                             rel="noopener noreferrer"
                             className=" inline-flex items-center rounded-full px-3 py-1 text-xs text-white bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 transition font-semibold shadow-sm mr-4"
                         >
-                            <img src="/world-wide-web.svg" alt="website" className="inline-block w-4 h-4 mr-1" />
+                                <Image src="/world-wide-web.svg" alt="website" className="inline-block w-4 h-4 mr-1"  height={16} width={16}/>
                             Website
                         </a>
                         <a
@@ -56,7 +57,7 @@ export function Project() {
                             rel="noopener noreferrer"
                             className="inline-flex items-center rounded-full px-3 py-1 text-xs text-white bg-gradient-to-r from-fuchsia-500 to-pink-500 hover:from-fuchsia-600 hover:to-pink-600 transition font-semibold shadow-sm"
                         >
-                            <img src="/git.svg" alt="GitHub" className="inline-block w-4 h-4 mr-1" />
+                            <Image src="/git.svg" alt="GitHub" className="inline-block w-4 h-4 mr-1" height={16} width={16}/>
                             Source Code
                         </a>
                     </div>

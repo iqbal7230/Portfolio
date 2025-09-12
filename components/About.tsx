@@ -1,5 +1,6 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+// import Image from "next/image";
 
 export function AboutTimeline() {
     const data = [
@@ -235,8 +236,8 @@ export function AboutTimeline() {
 
             <div className="text-center mt-8">
                 <p className="text-neutral-400 italic max-w-3xl mx-auto">
-                    "Every line of code is a step forward, every project a milestone, every challenge an opportunity to grow.
-                    This journey is just the beginning of transforming ideas into digital reality."
+                    Every line of code is a step forward, every project a milestone, every challenge an opportunity to grow.
+                    This journey is just the beginning of transforming ideas into digital reality.
                 </p>
             </div>
         </div>

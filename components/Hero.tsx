@@ -50,8 +50,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I break things, learn fast, and make shit happen.
-            If you’re working on something real, let’s talk.
+           Transforming ideas into scalable web solutions with modern technologies. Passionate about creating user-centric applications that solve real-world problems.
           </p>
           <div className="flex gap-10">
             <a href="#about">

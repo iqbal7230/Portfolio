@@ -4,7 +4,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "https://drive.google.com/file/d/1jZNTdtPWgdSM0X85Cd0oBrywfLA0PDpC/view?usp=sharing" },
+  { name: "Resume", link: "https://drive.google.com/file/d/1zLsWPz7i-PR-r7Q7dGiApPZHhqwqeT8i/view?usp=sharing" },
 ];
 export const skill = [
    "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript","Docker", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git","RestAPI"
@@ -13,8 +13,8 @@ export const skill = [
 export const projects = [
   {
     id: 1,
-    title: "StartUpStory",
-    des: "Pitch Your Startup Connect with Entrepreneur. Submit Ideas, Vote on Pitches, Connect with Founders and Get Noticed in the Virtual World",
+    title: "StartUpStory - Entrepreneurship Platform",
+    des: "A comprehensive platform connecting entrepreneurs with investors and mentors. Built with React.js and Node.js, featuring real-time pitch submissions, voting mechanisms, and founder networking capabilities.",
     img: "/image.png",
     teckstack: ["NextJs", "TypeScript", "Sanity", "TailwindCSS"],
     link: "https://startupstory.vercel.app",

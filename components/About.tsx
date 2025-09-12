@@ -233,31 +233,6 @@ export function AboutTimeline() {
                 <Timeline data={data} />
             </div>
 
-            {/* Journey Stats */}
-            <div className="mt-16 bg-gradient-to-r from-purple-900/20 to-pink-900/20 p-8 rounded-2xl border border-purple-500/20">
-                <h3 className="text-2xl font-bold text-white text-center mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Journey by Numbers
-                </h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div className="text-center">
-                        <div className="text-3xl font-bold text-purple-400 mb-2">25+</div>
-                        <div className="text-neutral-300 text-sm">Projects Completed</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl font-bold text-blue-400 mb-2">3K+</div>
-                        <div className="text-neutral-300 text-sm">Users Served</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl font-bold text-green-400 mb-2">15+</div>
-                        <div className="text-neutral-300 text-sm">Students Mentored</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl font-bold text-yellow-400 mb-2">95%</div>
-                        <div className="text-neutral-300 text-sm">Client Satisfaction</div>
-                    </div>
-                </div>
-            </div>
-
             <div className="text-center mt-8">
                 <p className="text-neutral-400 italic max-w-3xl mx-auto">
                     "Every line of code is a step forward, every project a milestone, every challenge an opportunity to grow.

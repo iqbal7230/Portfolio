@@ -46,6 +46,15 @@ export const projects = [
     teckstack: ["HTML", "Python", "Machine Learning"],
     link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
     githubLink: "https://github.com/iqbal7230/Student-Perfomance-System.git",
+  },
+   {
+    id: 5,
+    title: "ExamGuardian",
+    des: "ExamGuardian is an intelligent online proctoring system that leverages Computer Vision & Machine Learning to ensure exam integrity during remote assessments. The system monitors candidates in real-time through their webcam, providing comprehensive surveillance and detailed reporting for secure online interviews and examinations." ,
+    img: "/stud.webp",
+    teckstack: ["React", "TailwindCSS", "NodeJs", "ExpressJs", "TensorFlow", "MongoDB"],
+    link: "https://exam-guardian-three.vercel.app/",
+    githubLink: "https://github.com/iqbal7230/ExamGuardian",
   }
 ];
 

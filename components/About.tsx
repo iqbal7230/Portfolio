@@ -8,12 +8,7 @@ export function AboutTimeline() {
             title: "2025",
             content: (
                 <div className="space-y-6">
-                    <div className="flex items-center gap-2 mb-4">
-                        <span className="text-2xl">🚀</span>
-                        <h3 className="text-xl font-bold text-white bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                            Mastery & Leadership
-                        </h3>
-                    </div>
+
 
                     <div className="grid gap-4">
                         <div className="bg-gradient-to-r from-purple-900/20 to-pink-900/20 p-4 rounded-lg border border-purple-500/20">

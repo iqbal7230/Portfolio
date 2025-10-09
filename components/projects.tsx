@@ -13,11 +13,11 @@ export function Project() {
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h1>
-            <div className="flex flex-wrap items-center justify-center p-4 gap-8 py-10">
+            <div className="flex flex-wrap items-center justify-center p-4 gap-8 py-10 ">
             {projects.map((project: any) => (
                 <BackgroundGradient
                     key={project.id}
-                    className="rounded-[22px] max-w-sm w-full p-6 sm:p-10 bg-white dark:bg-black-100 shadow-lg"
+                    className="rounded-[22px] max-w-sm w-full p-6 sm:p-10 bg-white dark:bg-black-100 shadow-lg "
                 >
                     {/* <img
                         src={project.image}

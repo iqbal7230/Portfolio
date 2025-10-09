@@ -49,7 +49,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-4 text-base text-blue-100 max-w-90">
            Transforming ideas into scalable web solutions with modern technologies. Passionate about creating user-centric applications that solve real-world problems.
           </p>
           <div className="flex gap-10">

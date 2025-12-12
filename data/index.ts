@@ -4,7 +4,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "https://drive.google.com/file/d/1zLsWPz7i-PR-r7Q7dGiApPZHhqwqeT8i/view?usp=sharing" },
+  { name: "Resume", link: "https://drive.google.com/file/d/1lv16TAKwCm2UwRzNtElNSLZwYKrZwUqr/view?usp=sharing" },
 ];
 export const skill = [
    "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript","Docker", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git","RestAPI"
@@ -55,6 +55,15 @@ export const projects = [
     teckstack: ["React", "TailwindCSS", "NodeJs", "ExpressJs", "TensorFlow", "MongoDB"],
     link: "https://exam-guardian-three.vercel.app/",
     githubLink: "https://github.com/iqbal7230/ExamGuardian",
+  },
+   {
+    id: 6,
+    title: "Agentic AI Trip Planner",
+    des: "AI Trip Planner is an AI-powered travel assistant that generates personalized, day-wise itineraries using LLMs and real-time data from Google Places, OpenWeatherMap, and Foursquare. Built with FastAPI and Streamlit, it automates trip planning with intelligent recommendations and dynamic travel insights" ,
+    img: "/stud.webp",
+    teckstack: ["Python", "FastAPI", "LangChain", "Streamlit"],
+    link: "#",
+    githubLink: "https://github.com/iqbal7230/AI-Trip-Plannar.git",
   }
 ];
 
@@ -80,6 +89,13 @@ export const workExperience = [
     desc: "App scripting to automate data analysis and reporting, improving efficiency by 40%.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Software Developement Enginner Intern",
+    desc: "Building and maintaining web applications using React.js and Node.js, ensuring responsive design and optimal performance.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/sde.png",
   }
 ];
 
@@ -98,5 +114,10 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
     link:"https://www.linkedin.com/in/iqbal-ansari-53406a253/"
+  },
+  {
+    id: 4,
+    img: "/LeetCode_logo_rvs.png",
+    link:"https://leetcode.com/u/iqbal_ansari/"
   },
 ];

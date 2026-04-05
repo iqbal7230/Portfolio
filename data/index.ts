@@ -1,10 +1,10 @@
 
 
 export const navItems = [
-  { name: "About", link: "#about" },
+  // { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "https://drive.google.com/file/d/1lv16TAKwCm2UwRzNtElNSLZwYKrZwUqr/view?usp=sharing" },
+  { name: "Resume", link: "https://drive.google.com/file/d/18NnifZl1JtYelxv4AiGrkFiFyRmp_HIq/view?usp=sharing" },
 ];
 export const skill = [
    "ReactJs", "NextJs", "TailwindCSS", "TypeScript", "JavaScript","Docker", "HTML", "CSS", "NodeJs", "ExpressJs", "MongoDB", "PostgreSQL", "Django", "Flask", "Python", "Java","Git","RestAPI"
@@ -22,6 +22,17 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Society Subscription Management System",
+    des: "A full-stack app for managing society maintenance, subscriptions, and payments with Admin and Resident portals. Supports online/offline payments, real-time tracking, reports, and notifications for seamless society operations.",
+    img: "/resident.jpg",
+    teckstack: ["NextJs", "NodeJs","PostgreSQL", "TailwindCSS"],
+    // link: "#",
+    githubLink: "https://github.com/iqbal7230/society-management.git",
+  },
+
+
+  {
+    id: 3,
     title: "AI-Powered Next-Gen Calculator",
     des: "An innovative calculator that integrates handwriting recognition, equation solving, graph generation, and abstract drawing interpretation, delivering a seamless and interactive experience for user's devices.",
     img: "/AI.webp",
@@ -30,7 +41,7 @@ export const projects = [
     githubLink: "https://github.com/iqbal7230/AI_cal_frontend.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "CLUB CONNECTX",
     des: "It is a one-stop platform designed to transform student engagement on campus by seamlessly connecting students, clubs, and opportunities. Stuents can explore clubs, join events, and discover opportunities that match their interests.",
     img: "/clubconnets.png",
@@ -38,15 +49,15 @@ export const projects = [
     link: "https://frontend-club-connect-6o5v.vercel.app",
     githubLink: "https://github.com/iqbal7230/Frontend_ClubConnect.git",
   },
-   {
-    id: 4,
-    title: "Student Performance Indicator ",
-    des: "Machine Learning model to predict student performance based on various factors. It provides insights into student performance, helping educators and institutions make informed decisions to improve educational outcomes." ,
-    img: "/stud.webp",
-    teckstack: ["HTML", "Python", "Machine Learning"],
-    link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
-    githubLink: "https://github.com/iqbal7230/Student-Perfomance-System.git",
-  },
+  //  {
+  //   id: 5,
+  //   title: "Student Performance Indicator ",
+  //   des: "Machine Learning model to predict student performance based on various factors. It provides insights into student performance, helping educators and institutions make informed decisions to improve educational outcomes." ,
+  //   img: "/stud.webp",
+  //   teckstack: ["HTML", "Python", "Machine Learning"],
+  //   link: "https://github.com/iqbal7230/Student-Perfomance-System.git",
+  //   githubLink: "https://github.com/iqbal7230/Student-Perfomance-System.git",
+  // },
    {
     id: 5,
     title: "ExamGuardian",
@@ -71,9 +82,10 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Data Science Associate Intern",
-    desc: "Celonis process mining, data analysis, and visualization, and machine learning model development.",
-    className: "md:col-span-2",
+    title: "Software Developement Trainee",
+    desc: "JavaScript, React, NextJs, NodeJs, PostgreSQL",
+    className: "md:col-span-2", // change to md:col-span-2
+    
     thumbnail: "/exp2.svg",
   },
   {
@@ -83,19 +95,26 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 3,
-    title: "Bussiness Analyst Intern",
-    desc: "App scripting to automate data analysis and reporting, improving efficiency by 40%.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
+  // {
+  //   id: 3,
+  //   title: "Bussiness Analyst Intern",
+  //   desc: "App scripting to automate data analysis and reporting, improving efficiency by 40%.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
   {
     id: 4,
     title: "Software Developement Enginner Intern",
     desc: "Building and maintaining web applications using React.js and Node.js, ensuring responsive design and optimal performance.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/sde.png",
+  },
+  {
+    id: 5,
+    title: "Data Science Associate Intern",
+    desc: "Celonis process mining, data analysis, and visualization, and machine learning model development.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   }
 ];
 

@@ -19,7 +19,7 @@ const Home = () => {
         <Skillbutton />
         <Project />
         <Experience />
-        <AboutTimeline/>
+        {/* <AboutTimeline/> */}
       
         <Footer />
       </div>

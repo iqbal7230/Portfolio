@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="w-full mb-[100px] pb-10 md:mb-5" id="contact">
+    <footer className="w-full mb-[100px] pb-10 md:mb-5 mt-20" id="contact">
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
@@ -18,7 +18,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:iqbalxply@gmail.com">
+        <a href="mailto:iqbalansari7230@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}

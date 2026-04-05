@@ -53,7 +53,7 @@ const Hero = () => {
            Transforming ideas into scalable web solutions with modern technologies. Passionate about creating user-centric applications that solve real-world problems.
           </p>
           <div className="flex gap-10">
-            <a href="#about">
+            <a href="#projects">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
